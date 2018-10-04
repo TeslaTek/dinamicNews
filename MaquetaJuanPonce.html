@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Maqueta Juan Pablo Ponce  47511965</title>
+
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body >
+
+	<header>
+	<a class="logo" href="MaquetaJuanPonce.html"><img src="assets/logo-02.png"></a>	
+
+	<div class="navigate">
+		<div class="menuContainer">
+		<div class="dropMenu" >
+  		<div onclick="Menu()" class="menuBT genericBT">Secciones</div>
+  		<div id="menuBody" class="menu-content">
+  		<a class="genericBT" href="#" onclick="sectionChange(this)">Sección 1</a>
+		<a class="genericBT" href="#" onclick="sectionChange(this)">Sección 2</a>
+		<a class="genericBT" href="#" onclick="sectionChange(this)">Sección 3</a> 
+		<a class="genericBT" href="#" onclick="sectionChange(this)">Sección 4</a>
+		<div class="buscador menuSearch">
+			<form  onsubmit="buscar()">
+				<input type="search" name="search01"  placeholder=""/>
+				<input id="search_submit" value="" type="submit" class="lupa"> 
+			</form>
+		</div>	
+  		</div>
+  		</div>
+  		</div>
+
+		<div class="hd-buttons">
+		<a class="genericBT home" href="#" onclick="sectionChange(this)">Sección 1</a>
+		<a class="genericBT" href="#" onclick="sectionChange(this)">Sección 2</a>
+		<a class="genericBT" href="#" onclick="sectionChange(this)">Sección 3</a> 
+		<a class="genericBT" href="#" onclick="sectionChange(this)">Sección 4</a>
+		</div>
+
+
+		<div class="buscador">
+			<form  onsubmit="buscar()">
+				<input type="search" name="search01"  placeholder=""/>
+				<input id="search_submit" value="" type="submit" class="lupa"> 
+			</form>
+		</div>	
+	</div>		
+	</header>
+<section >
+ <div class="top-banner">
+ 	<h1>Banner Principal</h1>
+ 	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 	tempor incididunt ut labore et dolore magna aliqua.  </div>
+ 	<a class="banner-button" href="#"> AMPLIAR</a>
+ </div>
+
+ <div class="top-banner dos">
+ 	<h1>Banner Principal 2</h1>
+ 	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 	tempor incididunt ut labore et dolore magna aliqua.  </div>
+ 	<a class="banner-button" href="#"> AMPLIAR</a>
+ </div>
+
+ <div class="top-banner tres">
+ 	<h1>Banner Principal 3</h1>
+ 	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 	tempor incididunt ut labore et dolore magna aliqua.  </div>
+ 	<a class="banner-button" href="#"> AMPLIAR</a>
+ </div>
+
+<div class="selectorContainer">
+  <span class="selector" onclick="slideshowRun(1)"></span>
+  <span class="selector" onclick="slideshowRun(2)"></span>
+  <span class="selector" onclick="slideshowRun(3)"></span>
+</div>
+
+ <hr>	
+ </section>
+  
+  <div class="container">
+<main>
+ <article class="Noticias"></article>
+ <hr>
+ <article class="Noticias"></article>
+ <hr>
+ <div id="Small">
+ <article class="SmallNews"></article>
+ <article class="SmallNews"></article>
+ </div>
+ </main>
+ <aside id="banners"></aside>
+ </div>
+
+<footer>
+	<hr>
+	<a class="logo-footer" href="#"><img src="assets/logo-02.png"></a>
+	
+	<div  class="ft-buttons">
+	<a  href="#">Secction1</a>
+	<a  href="#">Secction2</a>
+	<a  href="#">Secction3</a> 
+	<a  href="#">Secction4</a>
+	</div>
+</footer>
+</body>
+<script src="tools.js"></script> 
+
+</html>
+

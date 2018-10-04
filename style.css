@@ -1,0 +1,650 @@
+@font-face {
+    font-family: 'alte_haas_groteskbold';
+    src: url('fonts/altehaasgroteskbold.woff2') format('woff2'),
+         url('fonts/altehaasgroteskbold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'alte_haas_groteskregular';
+    src: url('fonts/altehaasgroteskregular.woff2') format('woff2'),
+         url('fonts/altehaasgroteskregular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	font-family: 'alte_haas_groteskregular';
+}
+
+
+body{
+	padding:15px;
+	margin: 0px;
+
+}
+
+header{
+	padding: 0;	
+	position: relative;
+	height: 55px;
+	margin: 0px;
+
+}
+.menuContainer{
+	position: absolute;
+	right: 0px;
+	width: 100%;
+}
+
+.dropMenu{
+	margin:0px;
+    position: relative;
+    display: none;
+    float: right;
+    width: 120px;
+    height: auto;
+}
+
+.menuBT{
+	cursor: pointer;
+	position: absolute;
+	left:  0%;
+	 z-index: 1;
+	 width: 90px;
+	 height: 35px;
+	 border: 1px solid;
+	 border-radius: 5px;
+	 border-color: rgba(0,0,0,0.5);
+	 box-shadow: inset 0 5px 15px -8px rgba(0,0,0,0.7);
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    left:  0px;
+    background-color: rgba(0,0,0,0.5);
+    width: 120px;
+    height: auto;
+    box-shadow: -10px -8px 7px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.menu-content a{
+    display: grid;
+    margin: 5px 2px;
+    height:35px; 
+}
+
+
+.showMenu{
+	display: block;
+}
+
+.logo {
+	position: absolute;
+	margin-left: 0;
+	margin:0px;
+	float: left;
+	width: 102px;
+
+}
+
+.hd-buttons {
+	position: absolute;
+	left: 0px;
+	display: inline-flex;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+
+}
+
+
+.genericBT {
+	float: none;
+	position: relative;
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+	padding: 7px 15px 0px 15px;
+	margin-right: 2px;
+	font-weight: bold;
+	transition: background-color 0.6s ease;
+	font-size: 100%;
+
+	
+}
+.home, .genericBT:hover{
+
+	background-color: black;
+	color: white;
+}
+
+
+.navigate {
+	width: 72%;
+	float: right;
+	margin:0;
+	padding: 0;
+	position: relative;
+	height: 35px;
+}
+
+.navigate a{
+
+	padding: 8px 20px 0px 20px;
+	font-size: 90%;
+}
+
+.buscador{
+	position: absolute;
+	right: 0px;
+}
+
+.menuSearch{
+	position: relative;
+	right: 0px;
+	display: none;
+	margin: 3px 0px;
+}
+
+form {
+	padding: 0;
+	margin: 0px ;
+	position: relative;
+	width:270px;
+	right: 0px;
+}	
+
+
+input[type="search"] {
+	width: 100%;
+	box-shadow: inset 0 9px 9px -8px rgba(0,0,0,0.3);
+	height: 35px;
+	border-radius: 3px;
+	border: 1px solid gray;
+}
+
+.menuSearch form{
+	right: 0px;
+	display: grid;
+	width: 120px;
+}
+
+
+.lupa {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	margin: 0;
+	padding: 0;
+	background-image: url("assets/lupa-03.png");
+	width: 24px;
+	height: 23px;
+	border:none;
+	background-color: transparent;
+	cursor: default;
+}
+.lupa:hover {
+	cursor:pointer;
+}
+
+section {
+	position: relative;
+
+}
+section hr {
+	border:0;
+	background-color: black;
+	height:1px; 
+}
+
+.top-banner {
+	display: none;
+	background-color:#1A1A1A;
+	color: white;
+	margin: 0;
+	padding: 50px;
+	height: 70%;
+	-webkit-animation-name: fade;
+  	-webkit-animation-duration: 1.5s;
+  	animation-name: fade;
+  	animation-duration: 1.5s;
+}
+
+.top-banner h1 {  
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+	}
+
+.top-banner div {
+	width: 50%;
+	margin-bottom: 25px;
+}
+
+.top-banner a {
+	bottom: 0px;
+	font-size: 15px;
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 18px;
+	margin-top: 0;
+	font-family: 'alte_haas_groteskbold';
+	display: block;
+	width: 70px;
+
+}
+
+.dos{
+
+	background-color:#001133;
+}
+
+.tres{
+
+	background-color:#003300;
+}
+
+.selectorContainer {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.selector {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.selected, .selector:hover {
+  background-color: black;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+main{
+
+	margin: 15px 0px;
+	width: 70%;
+}
+
+main hr{
+	border:0;
+	background-color: lightgrey;
+	height:1px;
+}
+
+
+article.Noticias {
+		position: relative;	
+		margin: 15px 0px;
+
+}
+
+
+.imgNews{
+	position: absolute;
+	margin-right: 2%;
+	left: 0px;
+	border: solid 2px grey;
+	width: 30%;
+	height: 100%;
+	background-color: white;
+	display: inline-block;
+}
+.Noticias h1{
+	margin-left: 32%;
+}
+
+.bNews{
+margin-left: 32%;
+margin-bottom: 15px;
+
+}
+
+.Noticias a{
+	margin-left: 34%;
+}
+
+
+#Small {
+
+	display: inline-flex;
+
+	margin-bottom: 15px;
+
+}
+.SmallNews {
+	display: inline-block;
+	width: 50%;
+	text-align: justify;
+	padding: 5px;
+	margin: 0;
+}
+
+.SmallNews a{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+
+}
+
+.container{
+	width: 100%;
+
+	display: flex;
+}
+aside{
+
+	margin: 15px;
+	height: auto;
+	width: 30%;
+	right: 0px;
+
+}
+
+.bigBanner {
+	position: relative;
+	display: block;
+	background-color: black;
+	color:white;
+	height: 50%;
+	width: 100%;
+
+}
+
+.bigBanner div{
+
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 40%;
+	left: 35%; 
+	text-decoration: none;
+	text-align: center;
+	color: white;
+
+
+}
+
+.halfBanner {
+	position: relative;
+	display: block;
+	background-color: black;
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	height: 25%;
+	width: 100%;
+	margin: 15px 0px;
+
+}
+
+.halfBanner div{
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 30%;
+	left: 35%; 
+	text-decoration: none;
+	text-align: center;
+	color: white;
+
+}
+
+footer{
+
+	margin-top: 25px;
+}
+
+footer hr{
+	border:0;
+	background-color: black;
+	height: 1px;
+}
+
+.logo-footer {
+	width: 82px;
+	height: 41px;
+	float: left;
+}
+.logo-footer img {
+	width: 82px;
+	height: 41px;
+}
+
+.ft-buttons {
+	float: right;
+}
+
+.ft-buttons a{
+	float: none;
+	position: relative;
+	background-color: white;
+	color: black;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 15px;
+	margin:0px 2px 0px 10px;
+
+}
+
+
+.ft-buttons a:hover{
+	background-color: black;
+	color: white;
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+	.bigBanner div{
+		left: 32%;
+	}
+
+	.halfBanner div{
+		top: 35%;
+		left: 32%;
+
+	}
+
+	}
+
+
+@media only screen and (max-width: 1010px) {
+
+	form {
+	width:200px;
+	 transition: width 0.6s ease;
+	}			
+
+	}	
+
+
+@media only screen and (max-width: 915px) {
+
+	form {
+	width:150px;
+	 transition: width 0.6s ease;
+	}			
+
+	}
+
+@media only screen and (max-width: 845px) {
+
+	header{
+		height: 72px;
+		margin-bottom: 2px;
+
+	}		
+
+	.navigate {
+		height: 72px;
+		display: flex;
+		width: 80%;
+		transition: width 0.6s ease;
+	}
+
+	.buscador{
+		left: 0px;
+		bottom: 0px;
+	}
+
+	
+	form {
+	width:250px;
+	 transition: width 0.6s ease;
+	}	
+
+	.bigBanner div{
+		left: 25%;
+	}
+
+	.halfBanner div{
+
+		left: 25%;
+
+	}
+
+	}
+
+
+	@media only screen and (max-width: 650px) {
+		
+		header{	
+		height: 55px;
+		margin:0px; 		
+		}
+
+		.navigate {
+		height: 35px;
+		display: inline-block;
+		width: 60%;
+		transition: width 0.6s ease;
+		}
+
+		.hd-buttons{
+		display: none;	
+		}
+
+		.dropMenu{
+			display: block;
+		}
+
+		.buscador{
+		left: 0px;
+		top: 0px;
+		}
+
+		form {
+		width:150px;
+	 	transition: width 0.6s ease;
+		}	
+
+		section{
+			display: none;
+		}
+
+		main{
+			margin-top: 0px;
+		}
+
+
+		.imgNews {
+			display: none;
+		}
+
+		.Noticias h1, .bNews, .Noticias a{
+		margin-left:0px;
+		}
+
+
+
+		.bigBanner div{
+		left: 15%;
+		}
+
+		.halfBanner div{
+
+		left: 15%;
+
+		}
+
+		.ft-buttons a{
+
+			padding:3px 2px;
+			font-size: 85%; 
+
+		}
+
+	}	
+
+	@media only screen and (max-width: 610px) {
+	
+	aside{
+		display: none;
+	}	
+
+	main{ width: 100%; }
+	
+	.navigate {
+		width: 70%;
+		}
+
+	form{
+		width: 140px;
+	}	
+
+
+	}
+
+	@media only screen and (max-width: 420px) {
+
+	.buscador{
+		display: none;
+		}
+
+	.menuSearch{
+		display: block;
+	}
+
+	.menuSearch form{
+		position: static;
+	}
+
+
+
+}
