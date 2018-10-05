@@ -1,0 +1,221 @@
+{ "News":[
+    {
+      "id": 1,
+      "name": "Flor de Narcos",
+      "section":"Politica",
+      "sectionID":1,
+      "adelanto": "La Policía detectó una banda dedicada al narcotráfico que desalojaba a los vecinos de manera compulsiva y controlaba el barrio desde un sistema de vigilancia propio.",
+      "imagen": "images/articulos/Articulo1a.jpg",
+      "titulo":"Al menos 8 detenidos en Flor de Maroñas por narcotrafico",
+      "cuerpo":"La Policía logro capturar a 8 miembros de una banda de narcotrafico ubicada en el barrio 'Flor de Maroñas', tenian un fuerte rodeado con muros custodiados por guardias armados las 24 horas, alambres de puas y camaras de circuito cerrado continuamente monitoreadas desde un SmartPhone. Se quedaban con las casas de los vecinos, quienes eran obligados a marcharse y usaban 1 almacen como fachada para vender la droga. El procedimiento policial contó ademas con inspectores de OSE, UTE y de la intendecia de Montevideo. noticia: https://www.montevideo.com.uy/Noticias/Detenidos-en-allanamientos-en-Flor-de-Maronas-seran-formalizados-el-viernes-uc697401  ",
+      "imagenPrincipal":"images/articulos/Articulo1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Flor de politico",
+      "section":"Politica",
+      "sectionID":1,
+      "adelanto": "Mujica dijo que prefiere estar acompañado de sus flores en su chacra, que de los demás politicos en el parlamento",
+      "imagen": "images/articulos/Articulo2a.jpg",
+      "titulo":"La pasión de Mujica: La botánica",
+      "cuerpo":"Todos bien conocemos la chacra del rincón del cerro que le pertenece al ex presidente José Mujica, además somos concientes de su gran interes por las flores y su cultivación. Actividad que logró mantener incluso estando en prisión en la dictadura militar. Pero ahora parece que es lo unico que lo mantiene concentrado, ya no puede participar de la politica como antes, se pasa con la mente puesta en sus plantines, pimpollos, macetas, etc. Es por eso que declaró : 'Estoy pensando en retirarme a mi chacra'.  ",
+      "imagenPrincipal":"images/articulos/Articulo2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Vuelve JR",
+      "section":"Deportes",
+      "sectionID":2,
+      "adelanto": "Juan Ramón Carrasco vuelve a la direccion del centro atletico Fenix.",
+      "imagen": "images/articulos/Articulo3a.jpg",
+      "titulo":"Juan R. Carrasco de nuevo como DT de Fenix",
+      "cuerpo":"El tiki tiki está listo para volver como DT y obviamente lo hace en uno de sus grandes favoritos, Fenix. Carrasco asume que fue el único cuadro en el que pudo trabajar realmente como DT dejando de lado su carasteristica de ShowMan aficionado a las burlas y criticas de hinchas, jugadores y dirigentes de futbol. 'Voy a volver con todo' declaró el gran DT que cualquier mugriento  hincha de Fenix espera tener al control del cuadro que nunca baja a la B.",
+      "imagenPrincipal":"images/articulos/Articulo3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Un Vodka para Bocca",
+      "section":"Entretenimiento",
+      "sectionID":3,
+      "adelanto": "Julio Bocca dejó el ballet para dedicarse a ser BarMan en el Conrad este verano 2019",
+      "imagen": "images/articulos/Articulo4a.jpg",
+      "titulo":"Julio Bocca: De bailarin a barman",
+      "cuerpo":"El mejor director de ballet que tuvo el Sodre de Montevideo en los ultimos 40 años está pensando en su nuevo rol en la noche de Uruguay y como todo Argentino sueña con pasar el verano en punta. Le surgió la oportunidad de trabajar para el hotel mas importante de la peninsula, el Conrad. Allí Julio Bocca sera conocido como 'Julio Vodka' el barman. Usara sus conocimientos de danza clasica y ballet para preparar los mejores tragos a las figuras más importantes del espetaculo en su estadia por Punta del Este",
+      "imagenPrincipal":"images/articulos/Articulo4.jpg"
+    },
+     {
+      "id": 5,
+      "name": "Del Fusca al barco",
+      "section":"Politica",
+      "sectionID":1,
+      "adelanto": "Los vecinos del Cerro podran ir a trabajar al centro en barco",
+      "imagen": "images/articulos/Articulo5a.jpg",
+      "titulo":"Un Puerto para el Cerro",
+      "cuerpo":"El ministerio de transporte y obras publicas ignaugurará para el proximo otoño el puerto interno de Montevideo, que conecta el cerro con centro y ciudad vieja. Ahora los trabajadores podran ir en barco a cubrir sus puestos de trabajo en el centro. 'El gobierno hizo caso a nuestra recoleccion de firmas' dijo el consejal vecinal al portal de totoNews",
+      "imagenPrincipal":"images/articulos/Articulo5.jpg"
+    },
+     {
+      "id": 6,
+      "name": "Con mi marido no!",
+      "section":"Politica",
+      "sectionID":1,
+      "adelanto": "Fuertes acusaciones contra totoNews por parte Topolansky",
+      "imagen": "images/articulos/Articulo6a.jpg",
+      "titulo":"Lucía Topolansky indiganada con portal de noticias",
+      "cuerpo":"La esposa del ex mandatario pepe Mujica lo defiende de las falsas acusaciones que en este portal se hicieron publicas. 'La unica flor en su vida soy yo' denunció la ministra en una posición de esposa del ex presidente mas que de miembro del parlamento uruguayo",
+      "imagenPrincipal":"images/articulos/Articulo6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Llegó la primavera a Montevideo",
+      "section":"Entretenimiento",
+      "sectionID":3,
+      "adelanto": "La primavera se ve en las flores, en los arboles, el clima y principalmente en las Cometas",
+      "imagen": "images/articulos/Articulo7a.jpg",
+      "titulo":"Las cometas coparon el cielo uruguayo",
+      "cuerpo":"Las ventas de cometas aumentaron y  los puestos de artesanos se expanden por toda la comarca. Niños esperan anciosos salir de la escuela para poder ir con sus amigos a remontar cometas a la rambla, a blvar Artigas y los gigantes canteros de Av Italia. Las maestras estan preocupadas por el rendimiento escolar pero a esta altura del partido a nadie le importa la nota.",
+      "imagenPrincipal":"images/articulos/Articulo7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Movida Jovén",
+      "section":"Entretenimiento",
+      "sectionID":3,
+      "adelanto": "La 17ª edición de la Movida Joven tendrá actividades todos los días en diversos escenarios como el Auditorio Nacional del Sodre, El Galpón y la Zitarrosa.",
+      "imagen": "images/articulos/Articulo8a.jpg",
+      "titulo":"Desde este viernes y durante 43 días los artistas jóvenes se apoderan de los escenarios",
+      "cuerpo":"A partir de este viernes 5 de octubre comienza la 17ª edición de la Movida Joven, que durante 43 días tendrá diversas actividades en populares escenarios de Montevideo protagonizadas por jóvenes artistas. Movida Joven es un evento cultural que reúne a jóvenes de todos los barrios de Montevideo, organizado por la Secretaría de Infancia, Adolescencia y Juventud de la Intendencia de Montevideo (IM). También participan grupos provenientes del interior del país. El lanzamiento de esta edición se realizará a las 18 horas en un escenario ubicado en la Plaza Varela, en Bulevar Artigas y Avenida Brasil. Allí habrá diferentes espectáculos artísticos que incluyen a Sonido Superchango, Pa'ntrar en Calor, El Congo y Croupier Funk. El evento es abierto a todo público y gratuito. En los próximos días, las actividades girarán en torno a la danza, el teatro, la música, la literatura, la ilustración, la fotografía y el muralismo, según indica la web de la IM. noticia:https://www.montevideo.com.uy/Tiempo-libre/Desde-este-viernes-y-durante-43-dias-los-artistas-jovenes-se-apoderan-de-los-escenarios-uc697344 ",
+      "imagenPrincipal":"images/articulos/Articulo8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Feria del libro",
+      "section":"Entretenimiento",
+      "sectionID":3,
+      "adelanto": "La feria estará abierta hasta el domingo 14 de octubre, en la Intendencia de Montevideo",
+      "imagen": "images/articulos/Articulo9a.jpg",
+      "titulo":"Detalles de la primera semana de la Feria Internacional del Libro de Montevideo",
+      "cuerpo":"Desde este lunes y hasta el 14 de octubre se desarrollará la 41ª edición de la Feria Internacional del Libro en la Intendencia de Montevideo. Como país invitado de honor, Ecuador tendrá una participación especial. Por este motivo, la inauguración quedará a cargo de la cantante Margarita Laso, de aquel país, desde las 19:00 horas de este lunes. El encuentro incluye la venta de libros variados, entre los que se encuentran los últimos lanzamientos y los más vendidos. Además, las editoriales presentan sus libros con presencia de los autores. noticia: https://www.montevideo.com.uy/Tiempo-libre/Detalles-de-la-primera-semana-de-la-Feria-Internacional-del-Libro-de-Montevideo-uc696862 ",
+      "imagenPrincipal":"images/articulos/Articulo9.jpg"
+    }
+
+    {
+      "id": 10,
+      "name": "Suarez con posible lesión",
+      "section":"Deportes",
+      "sectionID":2,
+      "adelanto": "El delantero uruguayo terminó sentido el partido ante el Tottenham. Mientras se deleita comiendo lentejas, es duda para el próximo partido.",
+      "imagen": "images/articulos/Articulo10a.jpg",
+      "titulo":"España: Barcelona evalúa la rodilla de Luis Suárez, que pudo haberse lesionado",
+      "cuerpo":"El salteño completó los 90 minutos en la victoria de los culés por 4-2 en Wembley por la segunda fecha del grupo B de la Champions League, y según la misma publicación 'estas molestias no se pueden relacionar con la lesión que sufrió a principios de la temporada anterior y que le mantuvo un mes de baja'. A la espera de su evolución, los médicos del Barcelona deciden por estas horas si estará a la orden del entrenador Ernesto Valverde el domingo, cuando el Barcelona visite al Valencia a las 15 45 horas de Uruguay por la octava fecha de La Liga de España. noticia: https://www.futbol.com.uy/Deportes/Espana-Barcelona-evalua-la-rodilla-de-Luis-Suarez-que-pudo-haberse-lesionado-uc697386  ",
+      "imagenPrincipal":"images/articulos/Articulo10.jpg"
+    }
+
+    {
+      "id": 11,
+      "name": "La celeste a competir",
+      "section":"Deportes",
+      "sectionID":2,
+      "adelanto": "El abanderado de la delegación, Santiago Saint-Upery, será el primero en ver acción de los celestes en Buenos Aires cuando nade los 100 metros pecho",
+      "imagen": "images/articulos/Articulo11a.jpg",
+      "titulo":"JJOO de la Juventud: Uruguay abre el fuego el domingo con natación, remo y hockey",
+      "cuerpo":"Uruguay comenzará su actividad en los Juegos Olímpicos de la Juventud que se desarrollarán en Buenos Aires, abriendo la acción en tres deportes, natación, hockey sobre césped y remo. El abanderado uruguayo Santiago Saint-Upery será quien abrirá el fuego para los celestes cuando a las 11:30 horas nade en la fase de series de los 100 metros pecho en el Parque Olímpicos de la Juventud. En caso de acceder a semifinales volverá a ver acción desde las 18:38 horas. noticia: https://www.futbol.com.uy/Deportes/JJOO-de-la-Juventud-Uruguay-abre-el-fuego-el-domingo-con-natacion-remo-y-hockey-uc697249 ",
+      "imagenPrincipal":"images/articulos/Articulo11.jpg"
+    }
+
+    {
+      "id": 12,
+      "name": "",
+      "section":"Deportes",
+      "sectionID":2,
+      "adelanto": "",
+      "imagen": "images/articulos/Articulo12a.jpg",
+      "titulo":"",
+      "cuerpo":"",
+      "imagenPrincipal":"images/articulos/Articulo12.jpg"
+    }
+
+
+    {
+      "id": 13,
+      "name": "",
+      "section":"Internacionales",
+      "sectionID":4,
+      "adelanto": "",
+      "imagen": "images/articulos/Articulo13a.jpg",
+      "titulo":"",
+      "cuerpo":"",
+      "imagenPrincipal":"images/articulos/Articulo13.jpg"
+    }
+
+   {
+      "id": 14,
+      "name": "",
+      "section":"Internacionales",
+      "sectionID":4,
+      "adelanto": "",
+      "imagen": "images/articulos/Articulo14a.jpg",
+      "titulo":"",
+      "cuerpo":"",
+      "imagenPrincipal":"images/articulos/Articulo14.jpg"
+    }
+
+   {
+      "id": 15,
+      "name": "",
+      "section":"Internacionales",
+      "sectionID":4,
+      "adelanto": "",
+      "imagen": "images/articulos/Articulo15a.jpg",
+      "titulo":"",
+      "cuerpo":"",
+      "imagenPrincipal":"images/articulos/Articulo15.jpg"
+    }
+
+   {
+      "id": 16,
+      "name": "",
+      "section":"Internacionales",
+      "sectionID":4,
+      "adelanto": "",
+      "imagen": "images/articulos/Articulo16a.jpg",
+      "titulo":"",
+      "cuerpo":"",
+      "imagenPrincipal":"images/articulos/Articulo16.jpg"
+    }
+
+
+
+  ],
+  "Sections": [
+    {
+      "id": 1,
+      "name": "Politica"
+    },
+    {
+      "id": 2,
+      "name": "Deportes"
+    },
+    {
+      "id": 3,
+      "name": "Entretenimiento"
+    },
+    {
+      "id": 4,
+      "name": "Internacionales"
+    }
+  ],
+ 
+  "users": [
+    {
+      "id": 1,
+      "name": "pedro",
+      "password": "123",
+    },
+    {
+      "id": 2,
+      "name": "maria",
+      "password": "123",
+    }
+  ]
+}
